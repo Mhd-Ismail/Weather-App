@@ -8,7 +8,7 @@ function setCity() {
 
 
 let key = "5f00d1aa043148508cc235737212209",
-    baseURL = "https://api.weatherapi.com/v1",
+    baseURL = "http://api.weatherapi.com/v1",
     foreCast = "/forecast.json?",
     months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     d = new Date(),
