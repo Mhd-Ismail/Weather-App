@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "Open Sans", sans-serif;
+    /* border: 2px solid white; */
+}
+
+body {
+    font-family: Roboto,
+        "Open Sans",
+        sans-serif;
+    font-size: 14px;
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.font90 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.blue {
+    color: #009ad8;
+}
+
+/* navbar */
+.backgroundColor {
+    background-color: #1e202b !important;
+    color: black !important;
+    font-size: 14px;
+}
+.backgroundColor .Li a {
+    color: #ffffff !important;
+    padding: 2px 25px !important;
+    margin: 0px 5px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.backgroundColor Li:hover a {
+    color: #009ad8 !important;
+    border-color: #009ad8;
+}
+
+.Li .stable a {
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.textlogo p {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 0 15px;
+}
+/* end of navbar */
+
+/* home section */
+.home {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-color: #1e202b;
+}
+
+
+.searchinput {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.searchinput input {
+    border-radius: 30px;
+    border-style: none;
+    padding: 15px 20px;
+    background-color: #1e202b;
+    color: #ffffff;
+    position: relative;
+}
+
+.searchinput button {
+    width: 120px;
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 3px;
+    top: 82px;
+    padding: 11px 20px;
+    background-color: #009ad8;
+    color: #ffffff;
+}
+
+.forecastHeader {
+    background-color: #2d303d;
+    color: #bfc1c8;
+    font-size: 14px;
+    padding: 0 10px;
+    border-top-left-radius: 15px;
+    
+
+}
+
+@media screen and (max-width:767px) {
+    .forecastHeader {
+       
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 15px;
+    }
+}
+
+.forecastBody {
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+    .forecastBody {
+        border-bottom-left-radius: 0%;
+        border-top-right-radius: 15px;
+
+    }
+}
+
+.forecastBody2 {
+    background-color: #262936;
+    padding: 0;
+    color: #bfc1c8;
+}
+
+.forecastHeader2 {
+    background-color: #222530;
+    color: #bfc1c8;
+    font-size: 14px;
+}
+
+.forecastHeader3 {
+    background-color: #2d303d;
+    color: #bfc1c8;
+    font-size: 14px;
+    padding: 0 10px;
+    border-top-right-radius: 15px;
+
+}
+@media screen and (max-width:767px) {
+    .forecastHeader3 {
+
+        border-top-right-radius: 0%;
+    }
+}
+
+
+.forecastBody3 {
+    background-color: #323544;
+    color: #bfc1c8;
+    padding: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+@media screen and (max-width:767px) {
+    .forecastBody3 {
+
+        border-bottom-left-radius:15px ;
+    }
+}
+
+.forecastImg {
+    width: 50px;
+}
+
+.forecastIcons span {
+    padding-right: 20px;
+}
+
+.firstP {
+    padding-top: 14px;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 0;
+
+}
+
+.secP {
+    font-size: 16px;
+    color: #bfc1c8;
+    padding-bottom: 10px;
+}
+
+/* end home section */
+
+/* footer */
+.subscribeInput input {
+    border-radius: 30px;
+    border-style: none;
+    padding: 15px 20px;
+    background-color: #1e202b;
+    color: #ffffff;
+    position: relative;
+}
+
+input:focus {
+    outline: none;
+}
+
+.subscribeInput button {
+    width: 120px;
+    border-style: none;
+    border-radius: 30px;
+    position: absolute;
+    right: 18px;
+    top: 52px;
+    padding: 11px 20px;
+    background-color: #009ad8;
+    color: #ffffff;
+}
+
+.backgroundc {
+    background-color: #262936;
+    color: #bfc1c8;
+}
+
+.socialIcons i {
+    width: 50px;
+    height: 50px;
+    background-color: #1e202b;
+    color: #009ad8;
+    line-height: 50px;
+    margin: 0 5px;
+    transition: color 0.5s, background-color 0.5s;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.socialIcons i:hover {
+    background-color: #009ad8;
+    color: #1e202b;
+}
