@@ -6,8 +6,8 @@ $(document).ready(function () {
     getWeatherData(searchInput.value);
   }
 
-  let key = "5f00d1aa043148508cc235737212209",
-    baseURL = "http://api.weatherapi.com/v1",
+let key = "5f00d1aa043148508cc235737212209",
+    baseURL = "https://api.weatherapi.com/v1",
     foreCast = "/forecast.json?",
     months = [
       "January",
